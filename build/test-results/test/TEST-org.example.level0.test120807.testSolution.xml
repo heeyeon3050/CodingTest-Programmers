@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.level0.test120807.testSolution" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-22T15:37:32" hostname="DESKTOP-2FDGLUT" time="0.077">
+<testsuite name="org.example.level0.test120807.testSolution" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-23T00:34:05" hostname="DESKTOP-2FDGLUT" time="0.21">
   <properties/>
-  <testcase name="2, 3 =&gt; -1" classname="org.example.level0.test120807.testSolution" time="0.069"/>
-  <testcase name="11, 11 =&gt; 1" classname="org.example.level0.test120807.testSolution" time="0.002"/>
-  <testcase name="7, 99 =&gt; -1" classname="org.example.level0.test120807.testSolution" time="0.002"/>
+  <testcase name="2, 3 =&gt; -1" classname="org.example.level0.test120807.testSolution" time="0.199"/>
+  <testcase name="11, 11 =&gt; 1" classname="org.example.level0.test120807.testSolution" time="0.001"/>
+  <testcase name="7, 99 =&gt; -1" classname="org.example.level0.test120807.testSolution" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

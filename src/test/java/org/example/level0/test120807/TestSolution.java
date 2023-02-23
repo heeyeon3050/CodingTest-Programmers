@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class testSolution {
+public class TestSolution {
     @Test
     @DisplayName("2, 3 => -1")
     void t1(){
@@ -23,4 +23,5 @@ public class testSolution {
     void t3(){
         assertThat(new Solution().solution(7, 99)).isEqualTo(-1);
     }
+
 }
