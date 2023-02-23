@@ -146,4 +146,7 @@ build/
 # gradle 무시
 .gradle/
 
+# idea 무시
+.idea/
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java
