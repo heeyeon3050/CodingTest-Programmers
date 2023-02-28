@@ -4,17 +4,11 @@ package org.example.level0.test120820;
 
 class Main {
     public static void main(String[] args) {
-        // 수정가능지역 시작
-        페라리 a페라리 = new 페라리();
-        자동차 a자동차 = a페라리;
-
-        // 수정가능지역 끝
+        System.out.println(new org.example.level0.test120820.Solution().solution(40));
     }
 }
-class 자동차 {
-    void 달리다() {}
-    void 서다() {}
-}
-class 페라리 extends 자동차 {
-    void 뚜껑이_열리다() {}
+class Solution {
+    public int solution(int age) {
+        return 2023 - age;
+    }
 }
