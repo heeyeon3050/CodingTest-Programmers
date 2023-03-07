@@ -7,6 +7,7 @@ public class Main {
         System.out.println(Arrays.toString(new Solution().solution(new String[]{"We", "are", "the", "world!"})));
     }
 }
+
 class Solution {
     public int[] solution(String[] strlist) {
         int[] answer = new int[strlist.length];
@@ -14,5 +15,11 @@ class Solution {
             answer[i] = strlist[i].length();
         }
         return answer;
+    }
+}
+
+class Solution1 {
+    public int[] solution(String[] strlist) {
+        return Arrays.stream(strlist).mapToInt(String::length).toArray();
     }
 }
